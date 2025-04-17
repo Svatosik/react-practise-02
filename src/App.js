@@ -1,8 +1,10 @@
+import FeedBack from "./components/feedback/FeedBack";
 
 
 function App() {
   return (
     <>
+      <FeedBack/>
     </>
   );
 }
