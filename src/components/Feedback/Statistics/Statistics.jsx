@@ -10,7 +10,6 @@ export const Statistics = ({
 }) => {
   return (
     <>
-      <>
         <p>Good: {good}</p>
         <p>Neutral: {neutral}</p>
         <p>Bad: {bad}</p>
@@ -22,7 +21,6 @@ export const Statistics = ({
           Positive feedback:
           {positivePercentage()}%
         </p>
-      </>
     </>
   );
 };
